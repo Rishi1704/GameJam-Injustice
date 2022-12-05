@@ -570,12 +570,12 @@ GameObject:
   - component: {fileID: 663093885}
   - component: {fileID: 663093884}
   - component: {fileID: 663093883}
+  - component: {fileID: 663093886}
   - component: {fileID: 663093882}
   - component: {fileID: 663093881}
-  - component: {fileID: 663093886}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
