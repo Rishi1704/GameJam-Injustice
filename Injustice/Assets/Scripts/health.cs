@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class health : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public float Playerhealth = 5f;
+
+    void OnCollisionEnter2D(Collision2D collision)
     {
-        
+        if(collision.gameObject.tag == "Bullet1")
+            Playerhealth--;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        if(Playerhealth <= 0f)
+            Destroy(gameObject);
     }
 }
